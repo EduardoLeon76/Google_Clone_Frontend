@@ -1,0 +1,203 @@
+*{
+    font-size: 62.5%;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden; /* Evita scroll innecesario */
+    font-size: 2.7rem;
+    /* La medida REM ha cambaido a 10px */
+    /* 1rem = 10px | 3.4rem = 34px */
+}
+
+header {
+    /*background-color: brown;*/
+    width: 100vw;
+    height: 6vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+header nav{
+    font-size: 2.2rem;
+    padding-top: 20px;
+}
+header nav .menu{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav .menu a{
+    font-size: 15px;
+    margin-right: 15px;
+    color: black;
+    display: flex;
+    align-items: baseline;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: underline;
+}
+nav .menu .menu-icon img{
+    /*background-image: url("https://static.thenounproject.com/png/756729-200.png");*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+}
+nav .menu .menu-element img{
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 10p;
+}
+
+/*-------------------------------------------*/
+
+main{
+    /* background-color: blueviolet; */
+    width: 100vw;
+    height: 84vh;
+    display: flex;
+    justify-content: center;
+}
+.cont-main__2{
+    /* background-color: aquamarine; */
+    width: 60vw;
+    height: 100%;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+}
+main .cont-main__2 .main-logo-google{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.main-logo-google img{
+    width: 50%;
+}
+
+main .main-input{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+main .main-input .main-input-cont{
+    width: 80%;
+    border: 1px solid #cfcfcf;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+main .main-input .main-input-cont input{
+    /* background-color: black; */
+    font-size: 20px;
+    width: 80%;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+main .main-input .main-input-cont:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+main .main-input .busqueda-icon{
+    /* background-color: black; */
+    background-image: url("https://www.pngmart.com/files/8/Search-Button-PNG-HD-Quality.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+    opacity: 0.6;
+}
+main .main-input .micro-icon{
+    /* background-color: black; */
+    background-image: url("https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-25-512.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.main-boton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+main .main-boton div{
+    margin: 0 10px;
+}
+main .main-boton button {
+    height: 40px;
+    background-color: #f2f2f2;
+    width: 160px;
+    border: none;
+    color: #5f6368;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 0 15px;
+    cursor: pointer;
+}
+main .main-boton button:hover{
+    border: 1px solid #cfcfcf;
+    box-shadow: 0 1px 1px #cfcfcf;
+}
+
+/*-------------------------------------------*/
+
+footer{
+    background-color: #f2f2f2;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 1.5rem;
+    border-top: 1px solid #dfe1e5;
+    /* display: flex;
+    justify-content: space-between;     */
+}
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+footer .footer-left{
+    justify-content: left;
+}
+footer .footer-right{
+    justify-content: right;
+}
+footer ul li a{
+    margin: 10px;
+    color: #5f6368;
+}
+
+
+#hover:hover{
+    background-color: green;
+}
