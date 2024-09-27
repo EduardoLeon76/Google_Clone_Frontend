@@ -139,7 +139,15 @@ main .main-input .micro-icon{
     height: 30px;
     cursor: pointer;
 }
-
+main .main-input .lens-icon{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Google_Lens_Icon.svg/2048px-Google_Lens_Icon.svg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
 .main-boton{
     width: 100%;
     display: flex;
@@ -195,9 +203,4 @@ footer .footer-right{
 footer ul li a{
     margin: 10px;
     color: #5f6368;
-}
-
-
-#hover:hover{
-    background-color: green;
 }
