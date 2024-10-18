@@ -247,4 +247,7 @@ footer ul li a{
     main .main-boton button {
         width: 123px;
     }
+    footer{
+        font-size: 1rem;
+    }
 }
